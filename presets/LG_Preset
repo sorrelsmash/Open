@@ -1,0 +1,95 @@
+{
+  
+  "ComfyUI/models/checkpoints": [
+   { "name": "perfectdeliberate_v10.safetensors", "url": "https://civitai.com/api/download/models/3187704?fileId=3068381" },
+   { "name": "aZovyaRPGArtistTools_v4VAE.safetensors", "url": "https://civitai.red/api/download/models/251729?fileId=195095" }
+  ],
+
+  
+  "ComfyUI/models/diffusion_models": [
+    {"name": "minimax_h3_ref2va_int8_convrot.safetensors", "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_int8_convrot.safetensors"},
+    {"name": "DasiwaKrea2TurboRaw_darkdesireV3TurboUC_fp8Mixed.safetensors", "url": "https://civitai.red/api/download/models/3362930?fileId=3251200"},
+    {"name": "10Eros_Max_h3_8stepTURBO_beta6_int8.safetensors", "url": "https://huggingface.co/TenStrip/10Eros-Max/resolve/main/10Eros_Max_h3_8stepTURBO_beta6_int8.safetensors"}  
+  ],
+
+  
+  "ComfyUI/models/text_encoders": [
+    { "name": "qwen_3_06b_base.safetensors", "url": "https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/text_encoders/qwen_3_06b_base.safetensors" },
+    { "name": "Heretical-Qwen3.5-9B-fp8.safetensors", "url": "https://huggingface.co/Bedovyy/Heretical-Qwen3.5-9B-Comfy/resolve/main/text_encoders/Heretical-Qwen3.5-9B-fp8.safetensors" } ,
+    {"name": "qwen3vl_4b_fp8_scaled.safetensors", "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/text_encoders/qwen3vl_4b_fp8_scaled.safetensors"},
+    { "name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors", "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors"},
+    { "name": "gemma4_12b_it_uncensored_heretic_int8_convrot.safetensors", "url": "https://huggingface.co/DarkRomeo88/gemma-4-12b-it-heretic-comfyui/resolve/main/gemma4_12b_it_uncensored_heretic_int8_convrot.safetensors" }
+
+  ],
+
+  
+  "ComfyUI/models/vae": [
+    { "name": "qwen_image_vae.safetensors", "url": "https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/vae/qwen_image_vae.safetensors" },
+    { "name": "minimax_h3_video_vae_fp16.safetensors", "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_fp16.safetensors"},
+    { "name": "minimax_h3_audio_vae_fp32.safetensors", "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors"},
+    { "name": "qwen_image_vae.safetensors", "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/vae/qwen_image_vae.safetensors" },
+    { "name": "wan_2.1_vae.safetensors", "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors" }
+  ],
+  
+
+  "ComfyUI/models/loras/Krea 2": [
+    { "name": "snofs_krea_v1_4.safetensors", "url": "https://civitai.red/api/download/models/3290120?fileId=3174557" }, 
+    { "name": "KNP_000003000.safetensors", "url": "https://civitai.red/api/download/models/3147117?fileId=3027612" }, 
+    { "name": "penis_size_krea2_v2_loraholic.safetensors", "url": "https://civitai.red/api/download/models/3154138?fileId=3034914" }, 
+    { "name": "krea2_identity_edit_v1_2.safetensors", "url": "https://huggingface.co/conradlocke/krea2-identity-edit/resolve/main/krea2_identity_edit_v1_2.safetensors" }, 
+    { "name": "krea2 pussy check up.safetensors", "url": "https://civitai.red/api/download/models/3158851?fileId=3039478" }, 
+    { "name": "anal_helper_krea2_loraholic.safetensors", "url": "https://civitai.red/api/download/models/3105253?fileId=2985077" }, 
+    { "name": "breast_size_v2_krea2_loraholic.safetensors", "url": "https://civitai.red/api/download/models/3131773?fileId=3012392" }, 
+    { "name": "saggy-krea.safetensors", "url": "https://civitai.red/api/download/models/3087068?fileId=2966536" }, 
+    { "name": "Krea 2 - Huge Natural Breasts.safetensors", "url": "https://civitai.red/api/download/models/3102732?fileId=2982547" }, 
+    { "name": "krea2_natural_expressions_V2.safetensors", "url": "https://civitai.red/api/download/models/3350181?fileId=3237317" }, 
+    { "name": "zy_Cinematic_Shot_K2.safetensors", "url": "https://civitai.red/api/download/models/3085969?fileId=2965389" }, 
+    { "name": "zy_Cinematic_Shot_K2.safetensors", "url": "https://civitai.red/api/download/models/3085969?fileId=2965389" }, 
+    { "name": "kr2_emo_pup_v2.safetensors", "url": "https://civitai.red/api/download/models/3365656?fileId=3253584" }, 
+    { "name": "krea2_turbo_lora_rank_64_bf16.safetensors ", "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/loras/krea2_turbo_lora_rank_64_bf16.safetensors" }, 
+    { "name": "Krea2_NSFW_Aesthetics_V1.safetensors", "url": "https://civitai.red/api/download/models/3179666?fileId=3060213" }, 
+    { "name": "penis_girth_krea2_loraholic.safetensors", "url": "https://civitai.red/api/download/models/3142123?fileId=3022358" } 
+],
+
+
+  "ComfyUI/models/loras/minimax_h3": [
+    {"name": "minimax_h3_turbo_v4_step600_ema_comfyui.safetensors","url": "https://huggingface.co/DarkRomeo88/MiniMax-H3-turbo-lora-comfyui/resolve/main/minimax_h3_turbo_v4_step600_ema_comfy.safetensors"},
+    {"name": "HMNSFW-AIO-V2.5.safetensors","url": "https://civitai.red/api/download/models/3268303?fileId=3152083"},
+    {"name": "minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors","url": "https://huggingface.co/lightx2v/Minimax-h3-Turbo/resolve/main/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors"},
+    {"name": "minimax_h3_ref2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors","url": "https://huggingface.co/lightx2v/Minimax-h3-Turbo/resolve/main/minimax_h3_ref2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors"},
+    {"name": "minimax-h3_fl2v_8Step_motion_enhancer.safetensors","url": "https://huggingface.co/rzgar/minimax-h3_fl2v_8Step_motion_enhancer/resolve/main/minimax-h3_fl2v_8Step_motion_enhancer.safetensors"},
+    {"name": "riding_pose_H3_i2v_v1.0.safetensors","url": "https://civitai.red/api/download/models/3203205?fileId=3084588"},
+    {"name": "H3_Motion_BoosterV2.safetensors","url": "https://civitai.red/api/download/models/3228867?fileId=3111185"},
+    {"name": "MysticXXX_MMH3-V4.safetensors","url": "https://civitai.red/api/download/models/3266628?fileId=3150341"},
+    {"name": "VBVR_H3_attn_only.safetensors","url": "https://civitai.red/api/download/models/3220766?fileId=3102749"},
+    {"name": "NSFW_ANIME_V6_H3-step00008100.safetensors","url": "https://civitai.red/api/download/models/3244323?fileId=3127941"},
+    {"name": "breastplayjiggle_h3_v1.safetensors","url": "https://civitai.red/api/download/models/3225638?fileId=3107724"},
+    {"name": "H3_slop_bounce.safetensors","url": "https://civitai.red/api/download/models/3250381?fileId=3137071"},
+    {"name": "bounceV07_ref2va-000230_Intense.safetensors","url": "https://civitai.red/api/download/models/3225638?fileId=3107724"},
+    {"name": "Pussy4nus_Epoch80.safetensors","url": "https://civitai.red/api/download/models/3207723?fileId=3089272"},
+    {"name": "Vagina_minimax-h3_epoch20.safetensors","url": "https://civitai.red/api/download/models/3252213?fileId=3135252"},
+    {"name": "PLORA_H3_V2-step00006300.safetensors","url": "https://civitai.red/api/download/models/3277703?fileId=3161784"},
+    {"name": "h3-sideview-deepthroat-step00007800-k3nk.safetensors","url": "https://civitai.red/api/download/models/3216591?fileId=3098396"},
+    {"name": "AstroFlatAnimeMH3-V01.safetensors","url": "https://civitai.red/api/download/models/3217925?fileId=3099721"},
+    {"name": "H3_R16_2.5d_style_v2_000003500.safetensors","url": "https://civitai.red/api/download/models/3371489?fileId=3259628"},
+    {"name": "h3_Better_NSFW_Motion_V1.safetensors","url": "https://civitai.red/api/download/models/3257589?fileId=3140780"},
+    {"name": "bounceV07_fl2va-000230_Intense.safetensors","url": "https://civitai.red/api/download/models/3258590?fileId=3141848"},
+    {"name": "deepthroat_v02.safetensors","url": "https://civitai.red/api/download/models/3226989?fileId=3109184"},
+    {"name": "MM-H3 - Blowjob v2.1.safetensors","url": "https://civitai.red/api/download/models/3235946?fileId=3118341"},
+    {"name": "HMNSFW-AIO-V2.5.safetensors","url": "https://civitai.red/api/download/models/3268303?fileId=3152083"},
+    {"name": "VBVR_H3_attn_only.safetensors","url": "https://civitai.red/api/download/models/3220766?fileId=3102749"},
+    {"name": "ass_jiggle_H3_i2v_v1.0.safetensors","url": "https://civitai.red/api/download/models/3255024?fileId=3138092"},
+    {"name": "NSFW_ANIME_V7_H3-step00019500.safetensors","url": "https://civitai.red/api/download/models/3286171?fileId=3170499"},
+    {"name": "2k_2.5d_Minimax_ref.safetensors","url": "https://civitai.red/api/download/models/3310937?fileId=3196234"},
+    {"name": "2k_2.5d_Minimax_ref.safetensors","url": "https://civitai.red/api/download/models/3310937?fileId=3196234"},
+    {"name": "MiniMax3_Boob Physics_v1.safetensors","url": "https://civitai.red/api/download/models/3245935?fileId=3128688"},
+    {"name": "saggy1000.safetensors","url": "https://civitai.red/api/download/models/3282910?fileId=3205325"},
+    {"name": "MiniMax-H3_uncut_penis_coachbate_v2_10000.safetensors","url": "https://civitai.red/api/download/models/3204513?fileId=3097806"},
+    {"name": "MiniMax-H3-Ref2VA-Acc-8Step_comfy.safetensors","url": "https://huggingface.co/Kijai/MiniMax-H3-experimental/resolve/main/loras/MiniMax-H3-Ref2VA-Acc-8Step_comfy.safetensors"},
+    {"name": "H3_VBVR_Pro_attn_only.safetensors","url": "https://civitai.red/api/download/models/3306139?fileId=3191174"}
+  ],
+
+    "ComfyUI/models/ultralytics/segm/": [
+    { "name": "nsfw-anime-xl-x1280.pt", "url": "https://huggingface.co/01miku/anime-nsfw-segm-yolo26/resolve/main/nsfw-anime-xl-x1280.pt" }
+  ]
+}
