@@ -2,7 +2,7 @@
   "id": "ea8681ef-664c-43ee-982b-8b02764bdfff",
   "revision": 0,
   "last_node_id": 1217,
-  "last_link_id": 3784,
+  "last_link_id": 3785,
   "nodes": [
     {
       "id": 376,
@@ -16,7 +16,7 @@
         160.708574716494
       ],
       "flags": {},
-      "order": 134,
+      "order": 132,
       "mode": 4,
       "inputs": [
         {
@@ -81,7 +81,7 @@
         107.94145953766002
       ],
       "flags": {},
-      "order": 147,
+      "order": 144,
       "mode": 4,
       "inputs": [
         {
@@ -127,7 +127,7 @@
         90
       ],
       "flags": {},
-      "order": 105,
+      "order": 104,
       "mode": 4,
       "inputs": [
         {
@@ -181,7 +181,7 @@
         390
       ],
       "flags": {},
-      "order": 153,
+      "order": 149,
       "mode": 4,
       "inputs": [
         {
@@ -249,7 +249,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 157,
+      "order": 152,
       "mode": 4,
       "inputs": [
         {
@@ -297,7 +297,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 182,
+      "order": 173,
       "mode": 4,
       "inputs": [
         {
@@ -393,7 +393,7 @@
         46
       ],
       "flags": {},
-      "order": 189,
+      "order": 183,
       "mode": 4,
       "inputs": [
         {
@@ -527,7 +527,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 98,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -628,7 +628,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 100,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -678,7 +678,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 112,
+      "order": 111,
       "mode": 0,
       "inputs": [
         {
@@ -728,7 +728,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 99,
+      "order": 98,
       "mode": 4,
       "inputs": [
         {
@@ -778,7 +778,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 106,
+      "order": 105,
       "mode": 4,
       "inputs": [
         {
@@ -871,7 +871,7 @@
         202
       ],
       "flags": {},
-      "order": 111,
+      "order": 110,
       "mode": 4,
       "inputs": [
         {
@@ -920,8 +920,9 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui_fearnworksnodes",
+        "aux_id": "kijai/ComfyUI-KJNodes",
         "ver": "0.1.2",
+        "cnr_id": "comfyui_fearnworksnodes",
         "Node name for S&R": "ImageBatchMulti",
         "ue_properties": {
           "widget_ue_connectable": {},
@@ -1130,7 +1131,7 @@
         202
       ],
       "flags": {},
-      "order": 101,
+      "order": 100,
       "mode": 4,
       "inputs": [
         {
@@ -1179,8 +1180,9 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui_fearnworksnodes",
+        "aux_id": "kijai/ComfyUI-KJNodes",
         "ver": "0.1.2",
+        "cnr_id": "comfyui_fearnworksnodes",
         "Node name for S&R": "ImageBatchMulti",
         "ue_properties": {
           "widget_ue_connectable": {},
@@ -1385,7 +1387,7 @@
         50
       ],
       "flags": {},
-      "order": 154,
+      "order": 150,
       "mode": 4,
       "inputs": [
         {
@@ -1463,52 +1465,6 @@
       "bgcolor": "#2a2a2a"
     },
     {
-      "id": 397,
-      "type": "SaveImage",
-      "pos": [
-        6592.726591230551,
-        1125.767519441206
-      ],
-      "size": [
-        869.8079409370275,
-        688.9401145950378
-      ],
-      "flags": {},
-      "order": 163,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 2572
-        }
-      ],
-      "outputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "links": []
-        }
-      ],
-      "title": "Fizgig decode",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.36.0",
-        "Node name for S&R": "SaveImage",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "MinimaxImg"
-      ],
-      "widgets_values_named": {
-        "filename_prefix": "MinimaxImg"
-      }
-    },
-    {
       "id": 484,
       "type": "ImageCropByMask",
       "pos": [
@@ -1520,7 +1476,7 @@
         46
       ],
       "flags": {},
-      "order": 176,
+      "order": 167,
       "mode": 4,
       "inputs": [
         {
@@ -1544,9 +1500,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui_fearnworksnodes",
+        "aux_id": "kijai/ComfyUI-KJNodes",
         "ver": "0.1.2",
         "Node name for S&R": "ImageCropByMask",
+        "cnr_id": "comfyui_fearnworksnodes",
         "ue_properties": {
           "widget_ue_connectable": {},
           "version": "7.8",
@@ -1566,7 +1523,7 @@
         106
       ],
       "flags": {},
-      "order": 179,
+      "order": 170,
       "mode": 4,
       "inputs": [
         {
@@ -1621,7 +1578,7 @@
         539.4131335593615
       ],
       "flags": {},
-      "order": 192,
+      "order": 185,
       "mode": 4,
       "inputs": [
         {
@@ -1662,7 +1619,7 @@
         170
       ],
       "flags": {},
-      "order": 172,
+      "order": 163,
       "mode": 4,
       "inputs": [
         {
@@ -1784,7 +1741,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 133,
+      "order": 131,
       "mode": 4,
       "inputs": [
         {
@@ -1937,7 +1894,7 @@
         46
       ],
       "flags": {},
-      "order": 104,
+      "order": 103,
       "mode": 4,
       "inputs": [
         {
@@ -1983,7 +1940,7 @@
         442
       ],
       "flags": {},
-      "order": 142,
+      "order": 140,
       "mode": 4,
       "inputs": [
         {
@@ -2108,7 +2065,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 102,
+      "order": 101,
       "mode": 4,
       "inputs": [
         {
@@ -2515,7 +2472,7 @@
         202
       ],
       "flags": {},
-      "order": 118,
+      "order": 117,
       "mode": 4,
       "inputs": [
         {
@@ -2564,8 +2521,9 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui_fearnworksnodes",
+        "aux_id": "kijai/ComfyUI-KJNodes",
         "ver": "0.1.2",
+        "cnr_id": "comfyui_fearnworksnodes",
         "Node name for S&R": "ImageBatchMulti",
         "ue_properties": {
           "widget_ue_connectable": {},
@@ -2641,7 +2599,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 195,
+      "order": 187,
       "mode": 4,
       "inputs": [
         {
@@ -2691,7 +2649,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 128,
+      "order": 126,
       "mode": 4,
       "inputs": [
         {
@@ -2826,7 +2784,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 103,
+      "order": 102,
       "mode": 0,
       "inputs": [
         {
@@ -3018,7 +2976,7 @@
         120.98278189464713
       ],
       "flags": {},
-      "order": 135,
+      "order": 133,
       "mode": 4,
       "inputs": [
         {
@@ -3071,7 +3029,7 @@
         82
       ],
       "flags": {},
-      "order": 114,
+      "order": 113,
       "mode": 4,
       "inputs": [
         {
@@ -3202,7 +3160,7 @@
         245.0410078735353
       ],
       "flags": {},
-      "order": 121,
+      "order": 120,
       "mode": 4,
       "inputs": [
         {
@@ -3252,7 +3210,7 @@
         474
       ],
       "flags": {},
-      "order": 186,
+      "order": 179,
       "mode": 4,
       "inputs": [
         {
@@ -3387,7 +3345,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 122,
+      "order": 121,
       "mode": 4,
       "inputs": [
         {
@@ -3436,13 +3394,13 @@
         154
       ],
       "flags": {},
-      "order": 123,
+      "order": 161,
       "mode": 4,
       "inputs": [
         {
           "name": "images",
           "type": "IMAGE",
-          "link": 3470
+          "link": 3785
         }
       ],
       "outputs": [
@@ -3500,7 +3458,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 116,
+      "order": 115,
       "mode": 4,
       "inputs": [
         {
@@ -3551,7 +3509,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 143,
+      "order": 166,
       "mode": 4,
       "inputs": [
         {
@@ -3597,7 +3555,7 @@
         474
       ],
       "flags": {},
-      "order": 149,
+      "order": 169,
       "mode": 4,
       "inputs": [
         {
@@ -3729,7 +3687,7 @@
         623.1508707657126
       ],
       "flags": {},
-      "order": 159,
+      "order": 176,
       "mode": 4,
       "inputs": [
         {
@@ -3795,7 +3753,7 @@
         539.4131335593615
       ],
       "flags": {},
-      "order": 171,
+      "order": 162,
       "mode": 4,
       "inputs": [
         {
@@ -3834,7 +3792,7 @@
         338
       ],
       "flags": {},
-      "order": 165,
+      "order": 157,
       "mode": 4,
       "inputs": [
         {
@@ -3972,7 +3930,7 @@
         128
       ],
       "flags": {},
-      "order": 108,
+      "order": 107,
       "mode": 4,
       "inputs": [
         {
@@ -4151,7 +4109,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 107,
+      "order": 106,
       "mode": 4,
       "inputs": [
         {
@@ -4422,7 +4380,7 @@
         46
       ],
       "flags": {},
-      "order": 109,
+      "order": 108,
       "mode": 4,
       "inputs": [
         {
@@ -4470,7 +4428,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 137,
+      "order": 135,
       "mode": 4,
       "inputs": [
         {
@@ -4607,7 +4565,7 @@
         560
       ],
       "flags": {},
-      "order": 148,
+      "order": 145,
       "mode": 4,
       "inputs": [
         {
@@ -4691,7 +4649,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 136,
+      "order": 134,
       "mode": 4,
       "inputs": [
         {
@@ -4818,7 +4776,7 @@
         444
       ],
       "flags": {},
-      "order": 140,
+      "order": 138,
       "mode": 4,
       "inputs": [
         {
@@ -5289,7 +5247,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 164,
+      "order": 156,
       "mode": 4,
       "inputs": [
         {
@@ -5385,7 +5343,7 @@
         46
       ],
       "flags": {},
-      "order": 113,
+      "order": 112,
       "mode": 4,
       "inputs": [
         {
@@ -5431,7 +5389,7 @@
         356
       ],
       "flags": {},
-      "order": 110,
+      "order": 109,
       "mode": 4,
       "inputs": [
         {
@@ -5802,7 +5760,7 @@
         866.3741190494022
       ],
       "flags": {},
-      "order": 138,
+      "order": 136,
       "mode": 4,
       "inputs": [
         {
@@ -6221,7 +6179,7 @@
         680.3703959164199
       ],
       "flags": {},
-      "order": 158,
+      "order": 153,
       "mode": 4,
       "inputs": [
         {
@@ -6403,7 +6361,7 @@
         258
       ],
       "flags": {},
-      "order": 139,
+      "order": 137,
       "mode": 4,
       "inputs": [
         {
@@ -6504,7 +6462,7 @@
         245.0410078735353
       ],
       "flags": {},
-      "order": 115,
+      "order": 114,
       "mode": 4,
       "inputs": [
         {
@@ -6655,7 +6613,7 @@
         106
       ],
       "flags": {},
-      "order": 191,
+      "order": 192,
       "mode": 4,
       "inputs": [
         {
@@ -6719,7 +6677,7 @@
         403.8897172086922
       ],
       "flags": {},
-      "order": 190,
+      "order": 191,
       "mode": 4,
       "inputs": [
         {
@@ -6778,7 +6736,7 @@
         368.47093317627696
       ],
       "flags": {},
-      "order": 166,
+      "order": 181,
       "mode": 4,
       "inputs": [
         {
@@ -6933,7 +6891,7 @@
         106
       ],
       "flags": {},
-      "order": 167,
+      "order": 182,
       "mode": 4,
       "inputs": [
         {
@@ -7056,7 +7014,7 @@
         46
       ],
       "flags": {},
-      "order": 155,
+      "order": 172,
       "mode": 4,
       "inputs": [
         {
@@ -7106,7 +7064,7 @@
         106
       ],
       "flags": {},
-      "order": 183,
+      "order": 189,
       "mode": 4,
       "inputs": [
         {
@@ -7217,7 +7175,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 117,
+      "order": 116,
       "mode": 4,
       "inputs": [
         {
@@ -7303,7 +7261,7 @@
         1409.7018021387557
       ],
       "flags": {},
-      "order": 132,
+      "order": 130,
       "mode": 4,
       "inputs": [
         {
@@ -7408,7 +7366,7 @@
         1389.7018021387555
       ],
       "flags": {},
-      "order": 141,
+      "order": 139,
       "mode": 4,
       "inputs": [
         {
@@ -7637,7 +7595,7 @@
         512.7105430719239
       ],
       "flags": {},
-      "order": 161,
+      "order": 178,
       "mode": 4,
       "inputs": [
         {
@@ -7725,7 +7683,7 @@
         512.7105430719239
       ],
       "flags": {},
-      "order": 173,
+      "order": 184,
       "mode": 4,
       "inputs": [
         {
@@ -7813,7 +7771,7 @@
         500.3121003315689
       ],
       "flags": {},
-      "order": 180,
+      "order": 188,
       "mode": 4,
       "inputs": [
         {
@@ -7902,7 +7860,7 @@
         500.3121003315689
       ],
       "flags": {},
-      "order": 187,
+      "order": 190,
       "mode": 4,
       "inputs": [
         {
@@ -8157,7 +8115,7 @@
       ],
       "size": [
         338.71598948686847,
-        72
+        96
       ],
       "flags": {},
       "order": 71,
@@ -8225,7 +8183,7 @@
         46
       ],
       "flags": {},
-      "order": 119,
+      "order": 118,
       "mode": 4,
       "inputs": [
         {
@@ -8319,7 +8277,7 @@
         46
       ],
       "flags": {},
-      "order": 120,
+      "order": 119,
       "mode": 4,
       "inputs": [
         {
@@ -8471,7 +8429,7 @@
       ],
       "size": [
         338.71598948686847,
-        72
+        96
       ],
       "flags": {},
       "order": 75,
@@ -8626,59 +8584,6 @@
       }
     },
     {
-      "id": 1072,
-      "type": "LoadImage",
-      "pos": [
-        7766.840952801805,
-        -32.03135020689707
-      ],
-      "size": [
-        297.6819411248682,
-        314
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 78,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            3470
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.31.1",
-        "Node name for S&R": "LoadImage",
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "image": true,
-            "upload": true
-          },
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "RTX_upscaler_073.png",
-        "image"
-      ],
-      "widgets_values_named": {
-        "image": "RTX_upscaler_073.png",
-        "upload": "image"
-      }
-    },
-    {
       "id": 952,
       "type": "AILab_YoloV8Adv",
       "pos": [
@@ -8690,7 +8595,7 @@
         338
       ],
       "flags": {},
-      "order": 160,
+      "order": 177,
       "mode": 4,
       "inputs": [
         {
@@ -8779,7 +8684,7 @@
         106
       ],
       "flags": {},
-      "order": 177,
+      "order": 186,
       "mode": 4,
       "inputs": [
         {
@@ -8843,7 +8748,7 @@
         130
       ],
       "flags": {},
-      "order": 79,
+      "order": 78,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -8893,7 +8798,7 @@
         58
       ],
       "flags": {},
-      "order": 80,
+      "order": 79,
       "mode": 4,
       "inputs": [
         {
@@ -8953,7 +8858,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 185,
+      "order": 175,
       "mode": 4,
       "inputs": [
         {
@@ -8999,7 +8904,7 @@
         58
       ],
       "flags": {},
-      "order": 81,
+      "order": 80,
       "mode": 4,
       "inputs": [
         {
@@ -9057,7 +8962,7 @@
         58
       ],
       "flags": {},
-      "order": 82,
+      "order": 81,
       "mode": 4,
       "inputs": [
         {
@@ -9117,7 +9022,7 @@
         60
       ],
       "flags": {},
-      "order": 151,
+      "order": 147,
       "mode": 4,
       "inputs": [
         {
@@ -9163,7 +9068,7 @@
         111.22673919547651
       ],
       "flags": {},
-      "order": 150,
+      "order": 146,
       "mode": 4,
       "inputs": [
         {
@@ -9214,7 +9119,7 @@
         78
       ],
       "flags": {},
-      "order": 156,
+      "order": 151,
       "mode": 4,
       "inputs": [
         {
@@ -9268,7 +9173,7 @@
         82
       ],
       "flags": {},
-      "order": 125,
+      "order": 123,
       "mode": 4,
       "inputs": [
         {
@@ -9320,7 +9225,7 @@
         204
       ],
       "flags": {},
-      "order": 127,
+      "order": 125,
       "mode": 4,
       "inputs": [
         {
@@ -9476,7 +9381,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 169,
+      "order": 159,
       "mode": 4,
       "inputs": [
         {
@@ -9524,7 +9429,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 168,
+      "order": 158,
       "mode": 4,
       "inputs": [
         {
@@ -9570,7 +9475,7 @@
         302.67456553398097
       ],
       "flags": {},
-      "order": 162,
+      "order": 154,
       "mode": 4,
       "inputs": [
         {
@@ -9638,7 +9543,7 @@
         244.65625
       ],
       "flags": {},
-      "order": 181,
+      "order": 171,
       "mode": 4,
       "inputs": [
         {
@@ -9705,7 +9610,7 @@
         130
       ],
       "flags": {},
-      "order": 83,
+      "order": 82,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -9757,7 +9662,7 @@
         60
       ],
       "flags": {},
-      "order": 152,
+      "order": 148,
       "mode": 4,
       "inputs": [
         {
@@ -9803,7 +9708,7 @@
         82
       ],
       "flags": {},
-      "order": 145,
+      "order": 142,
       "mode": 4,
       "inputs": [
         {
@@ -9860,7 +9765,7 @@
         58
       ],
       "flags": {},
-      "order": 84,
+      "order": 83,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -9902,7 +9807,7 @@
         82
       ],
       "flags": {},
-      "order": 124,
+      "order": 122,
       "mode": 4,
       "inputs": [
         {
@@ -9954,7 +9859,7 @@
         250
       ],
       "flags": {},
-      "order": 175,
+      "order": 165,
       "mode": 4,
       "inputs": [
         {
@@ -9989,9 +9894,10 @@
         }
       ],
       "properties": {
-        "aux_id": "xmarre/Comfyui_Minimax_h3_latent_Upscaler-Plus",
+        "cnr_id": "comfyui-minimax-h3-latent-upscaler",
         "ver": "1ddcc33e9b674aaabbccc3808fe36e1a47bdd36d",
         "Node name for S&R": "MinimaxH3LatentUpscaler3D",
+        "aux_id": "xmarre/Comfyui_Minimax_h3_latent_Upscaler-Plus",
         "ue_properties": {
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {},
@@ -10015,10 +9921,10 @@
         "mode.width": 1280,
         "mode.height": 704,
         "align": 1,
-        "enable_temporal_chunking": false,
-        "force_unload": true,
-        "device": "cuda",
-        "precision": "fp16"
+        "keep_proportion": false,
+        "device": true,
+        "precision": "cuda",
+        "offload_after_upscale": "fp16"
       }
     },
     {
@@ -10033,7 +9939,7 @@
         46
       ],
       "flags": {},
-      "order": 170,
+      "order": 160,
       "mode": 4,
       "inputs": [
         {
@@ -10091,7 +9997,7 @@
         46
       ],
       "flags": {},
-      "order": 178,
+      "order": 168,
       "mode": 4,
       "inputs": [
         {
@@ -10147,7 +10053,7 @@
         130
       ],
       "flags": {},
-      "order": 85,
+      "order": 84,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -10199,7 +10105,7 @@
         252.70763574462853
       ],
       "flags": {},
-      "order": 86,
+      "order": 85,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -10233,7 +10139,7 @@
         214.63466434895759
       ],
       "flags": {},
-      "order": 87,
+      "order": 86,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -10276,7 +10182,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 184,
+      "order": 174,
       "mode": 4,
       "inputs": [
         {
@@ -10322,7 +10228,7 @@
         91.82767788589354
       ],
       "flags": {},
-      "order": 126,
+      "order": 124,
       "mode": 4,
       "inputs": [
         {
@@ -10370,7 +10276,7 @@
         82
       ],
       "flags": {},
-      "order": 144,
+      "order": 141,
       "mode": 4,
       "inputs": [
         {
@@ -10418,7 +10324,7 @@
         212.96091629083833
       ],
       "flags": {},
-      "order": 88,
+      "order": 87,
       "mode": 4,
       "inputs": [
         {
@@ -10511,7 +10417,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 89,
+      "order": 88,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -10557,7 +10463,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 90,
+      "order": 89,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -10603,7 +10509,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 91,
+      "order": 90,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -10648,7 +10554,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 92,
+      "order": 91,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -10693,7 +10599,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 129,
+      "order": 127,
       "mode": 4,
       "inputs": [
         {
@@ -10775,7 +10681,7 @@
         88
       ],
       "flags": {},
-      "order": 93,
+      "order": 92,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -10847,7 +10753,7 @@
         464
       ],
       "flags": {},
-      "order": 146,
+      "order": 143,
       "mode": 4,
       "inputs": [
         {
@@ -11035,7 +10941,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 94,
+      "order": 93,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -11081,12 +10987,12 @@
       ],
       "size": [
         567.4458263084375,
-        647.9382772984961
+        334
       ],
       "flags": {
         "collapsed": false
       },
-      "order": 188,
+      "order": 180,
       "mode": 4,
       "inputs": [
         {
@@ -11198,7 +11104,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 130,
+      "order": 128,
       "mode": 4,
       "inputs": [
         {
@@ -11225,9 +11131,7 @@
           "input_ue_unconnectable": {},
           "version": "7.8"
         }
-      },
-      "widgets_values": [],
-      "widgets_values_named": {}
+      }
     },
     {
       "id": 696,
@@ -11243,7 +11147,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 131,
+      "order": 129,
       "mode": 4,
       "inputs": [
         {
@@ -11270,9 +11174,7 @@
           "input_ue_unconnectable": {},
           "version": "7.8"
         }
-      },
-      "widgets_values": [],
-      "widgets_values_named": {}
+      }
     },
     {
       "id": 736,
@@ -11288,7 +11190,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 95,
+      "order": 94,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -11333,7 +11235,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 96,
+      "order": 95,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -11378,7 +11280,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 97,
+      "order": 96,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -11424,12 +11326,12 @@
       ],
       "size": [
         621.6219825507592,
-        678.4123651848021
+        334
       ],
       "flags": {
         "collapsed": false
       },
-      "order": 174,
+      "order": 164,
       "mode": 4,
       "inputs": [
         {
@@ -11525,6 +11427,54 @@
             "fullpath": "/workspace/ComfyUI/output/Minimax_LowRes_00009-audio.mp4"
           }
         }
+      }
+    },
+    {
+      "id": 397,
+      "type": "SaveImage",
+      "pos": [
+        6592.726591230551,
+        1125.767519441206
+      ],
+      "size": [
+        869.8079409370275,
+        688.9401145950378
+      ],
+      "flags": {},
+      "order": 155,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 2572
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            3785
+          ]
+        }
+      ],
+      "title": "Fizgig decode",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.36.0",
+        "Node name for S&R": "SaveImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "MinimaxImg"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "MinimaxImg"
       }
     }
   ],
@@ -13002,14 +12952,6 @@
       "IMAGE"
     ],
     [
-      3470,
-      1072,
-      0,
-      510,
-      0,
-      "IMAGE"
-    ],
-    [
       3659,
       1170,
       0,
@@ -13352,6 +13294,14 @@
       696,
       0,
       "IMAGE"
+    ],
+    [
+      3785,
+      397,
+      0,
+      510,
+      0,
+      "IMAGE"
     ]
   ],
   "groups": [
@@ -13566,7 +13516,7 @@
         "state": {
           "lastGroupId": 43,
           "lastNodeId": 1217,
-          "lastLinkId": 3784,
+          "lastLinkId": 3785,
           "lastRerouteId": 4
         },
         "revision": 0,
@@ -13749,10 +13699,10 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "aux_id": "kijai/ComfyUI-KJNodes",
               "ver": "1.5.0",
               "Node name for S&R": "MiniMaxLowVRAMAttention",
-              "aux_id": "kijai/ComfyUI-KJNodes",
+              "cnr_id": "comfyui-kjnodes",
               "ue_properties": {
                 "widget_ue_connectable": {
                   "head_chunks": true
@@ -13801,10 +13751,10 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "aux_id": "kijai/ComfyUI-KJNodes",
               "ver": "1.5.0",
               "Node name for S&R": "MiniMaxChunkFeedForward",
-              "aux_id": "kijai/ComfyUI-KJNodes",
+              "cnr_id": "comfyui-kjnodes",
               "ue_properties": {
                 "widget_ue_connectable": {
                   "chunks": true,
@@ -13907,8 +13857,8 @@
             ],
             "outputs": [
               {
-                "localized_name": "model",
-                "name": "model",
+                "localized_name": "MODEL",
+                "name": "MODEL",
                 "type": "MODEL",
                 "links": [
                   2887
@@ -13916,10 +13866,10 @@
               }
             ],
             "properties": {
-              "cnr_id": "comfyui-kjnodes",
+              "aux_id": "kijai/ComfyUI-KJNodes",
               "ver": "1.5.0",
               "Node name for S&R": "MiniMaxH3MemoryEfficientSageAttentionPatch",
-              "aux_id": "kijai/ComfyUI-KJNodes",
+              "cnr_id": "comfyui-kjnodes",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.8",
@@ -14213,7 +14163,7 @@
         "state": {
           "lastGroupId": 43,
           "lastNodeId": 1217,
-          "lastLinkId": 3784,
+          "lastLinkId": 3785,
           "lastRerouteId": 4
         },
         "revision": 0,
@@ -14571,7 +14521,7 @@
         "state": {
           "lastGroupId": 43,
           "lastNodeId": 1217,
-          "lastLinkId": 3784,
+          "lastLinkId": 3785,
           "lastRerouteId": 4
         },
         "revision": 0,
@@ -15291,9 +15241,10 @@
             ],
             "title": "STITCH BACK TO ORIGINAL (KJNodes)",
             "properties": {
-              "cnr_id": "comfyui_fearnworksnodes",
+              "aux_id": "kijai/ComfyUI-KJNodes",
               "ver": "0.1.2",
               "Node name for S&R": "ImageUncropByMask",
+              "cnr_id": "comfyui_fearnworksnodes",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.8",
@@ -15366,9 +15317,10 @@
             ],
             "title": "ONLY MASKED CROP (KJNodes)",
             "properties": {
-              "cnr_id": "comfyui_fearnworksnodes",
+              "aux_id": "kijai/ComfyUI-KJNodes",
               "ver": "0.1.2",
               "Node name for S&R": "ImageCropByMaskAndResize",
+              "cnr_id": "comfyui_fearnworksnodes",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.8",
@@ -15910,7 +15862,7 @@
         "state": {
           "lastGroupId": 43,
           "lastNodeId": 1217,
-          "lastLinkId": 3784,
+          "lastLinkId": 3785,
           "lastRerouteId": 4
         },
         "revision": 0,
@@ -16484,9 +16436,10 @@
             ],
             "title": "ONLY MASKED CROP (KJNodes)",
             "properties": {
-              "cnr_id": "comfyui_fearnworksnodes",
+              "aux_id": "kijai/ComfyUI-KJNodes",
               "ver": "0.1.2",
               "Node name for S&R": "ImageCropByMaskAndResize",
+              "cnr_id": "comfyui_fearnworksnodes",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.8",
@@ -16717,9 +16670,10 @@
             ],
             "title": "STITCH BACK TO ORIGINAL (KJNodes)",
             "properties": {
-              "cnr_id": "comfyui_fearnworksnodes",
+              "aux_id": "kijai/ComfyUI-KJNodes",
               "ver": "0.1.2",
               "Node name for S&R": "ImageUncropByMask",
+              "cnr_id": "comfyui_fearnworksnodes",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.8",
@@ -17249,7 +17203,7 @@
         "state": {
           "lastGroupId": 43,
           "lastNodeId": 1217,
-          "lastLinkId": 3784,
+          "lastLinkId": 3785,
           "lastRerouteId": 4
         },
         "revision": 0,
@@ -17921,9 +17875,10 @@
             ],
             "title": "STITCH BACK TO ORIGINAL (KJNodes)",
             "properties": {
-              "cnr_id": "comfyui_fearnworksnodes",
+              "aux_id": "kijai/ComfyUI-KJNodes",
               "ver": "0.1.2",
               "Node name for S&R": "ImageUncropByMask",
+              "cnr_id": "comfyui_fearnworksnodes",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.8",
@@ -18055,9 +18010,10 @@
             ],
             "title": "ONLY MASKED CROP (KJNodes)",
             "properties": {
-              "cnr_id": "comfyui_fearnworksnodes",
+              "aux_id": "kijai/ComfyUI-KJNodes",
               "ver": "0.1.2",
               "Node name for S&R": "ImageCropByMaskAndResize",
+              "cnr_id": "comfyui_fearnworksnodes",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.8",
@@ -18599,7 +18555,7 @@
         "state": {
           "lastGroupId": 43,
           "lastNodeId": 1217,
-          "lastLinkId": 3784,
+          "lastLinkId": 3785,
           "lastRerouteId": 4
         },
         "revision": 0,
@@ -19221,9 +19177,10 @@
             ],
             "title": "STITCH BACK TO ORIGINAL (KJNodes)",
             "properties": {
-              "cnr_id": "comfyui_fearnworksnodes",
+              "aux_id": "kijai/ComfyUI-KJNodes",
               "ver": "0.1.2",
               "Node name for S&R": "ImageUncropByMask",
+              "cnr_id": "comfyui_fearnworksnodes",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.8",
@@ -19448,9 +19405,10 @@
             ],
             "title": "ONLY MASKED CROP (KJNodes)",
             "properties": {
-              "cnr_id": "comfyui_fearnworksnodes",
+              "aux_id": "kijai/ComfyUI-KJNodes",
               "ver": "0.1.2",
               "Node name for S&R": "ImageCropByMaskAndResize",
+              "cnr_id": "comfyui_fearnworksnodes",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.8",
@@ -19959,10 +19917,10 @@
     "bvSmartPipeRoutes": {},
     "cablemanagement_combs": [],
     "ds": {
-      "scale": 0.6209213230591556,
+      "scale": 0.21762913579014892,
       "offset": [
-        20.308216515730336,
-        1348.8556149352867
+        -1018.0766480353941,
+        1825.7936992221075
       ]
     }
   },
