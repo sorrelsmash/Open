@@ -3,10 +3,8 @@
     { "name": "waiNSFWIllustrious_v160.safetensors", "url": "https://civitai.com/api/download/models/2514310?type=Model&format=SafeTensor&size=pruned&fp=fp16" }
   ],
 
-
-
   "ComfyUI/models/diffusion_models": [
-    { "name": "krea2_turbo_fp8_scaled.safetensors", "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/diffusion_models/krea2_turbo_fp8_scaled.safetensors" }
+    { "name": "krea2Anime_v30_fp8.safetensors", "url": "https://civitai.red/api/download/models/3435333?fileId=3334536" }
   ],
 
   "ComfyUI/models/text_encoders": [
@@ -31,7 +29,9 @@
     { "name": "snofs_krea_v1_4.safetensors", "url": "https://civitai.red/api/download/models/3290120?fileId=3174557" }, 
     { "name": "KNP_000003000.safetensors", "url": "https://civitai.red/api/download/models/3147117?fileId=3027612" }, 
     { "name": "penis_size_krea2_v2_loraholic.safetensors", "url": "https://civitai.red/api/download/models/3154138?fileId=3034914" }, 
-    { "name": "krea2_identity_edit_v1_2.safetensors", "url": "https://huggingface.co/conradlocke/krea2-identity-edit/resolve/main/krea2_identity_edit_v1_2.safetensors" }, 
+    { "name": "krea2_identity_edit_v1_2.safetensors", "url": "https://huggingface.co/conradlocke/krea2-identity-edit/resolve/main/krea2_identity_edit_v1_2.safetensors" },
+    { "name": "krea2_general_edit_v2.safetensors ", "url": "https://huggingface.co/conradlocke/krea2-identity-edit/resolve/main/krea2_general_edit_v2.safetensors" },
+    { "name": "krea2_identity_edit_v2.safetensors", "url": "https://huggingface.co/conradlocke/krea2-identity-edit/resolve/main/krea2_identity_edit_v2.safetensors" }, 
     { "name": "krea2 pussy check up.safetensors", "url": "https://civitai.red/api/download/models/3158851?fileId=3039478" }, 
     { "name": "anal_helper_krea2_loraholic.safetensors", "url": "https://civitai.red/api/download/models/3105253?fileId=2985077" }, 
     { "name": "breast_size_v2_krea2_loraholic.safetensors", "url": "https://civitai.red/api/download/models/3131773?fileId=3012392" }, 
@@ -43,7 +43,11 @@
     { "name": "kr2_emo_pup_v2.safetensors", "url": "https://civitai.red/api/download/models/3365656?fileId=3253584" }, 
     { "name": "krea2_turbo_lora_rank_64_bf16.safetensors ", "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/loras/krea2_turbo_lora_rank_64_bf16.safetensors" }, 
     { "name": "Krea2_NSFW_Aesthetics_V1.safetensors", "url": "https://civitai.red/api/download/models/3179666?fileId=3060213" }, 
-    { "name": "penis_girth_krea2_loraholic.safetensors", "url": "https://civitai.red/api/download/models/3142123?fileId=3022358" } 
+    { "name": "penis_girth_krea2_loraholic.safetensors", "url": "https://civitai.red/api/download/models/3142123?fileId=3022358" },
+    { "name": "Cherry_Mouse_Street_style_krea_style_v1.safetensors", "url": "https://civitai.red/api/download/models/3419842?fileId=3313609" },
+    { "name": "Flat_Color_Outline_K2_M_V1_krea2_3307110_epoch_10.safetensors", "url": "https://civitai.red/api/download/models/3309567?fileId=3194789" }, 
+    { "name": "flat1.0_c1-st2000.safetensors", "url": "https://civitai.red/api/download/models/3372588?fileId=3260702" }, 
+    { "name": "ass_v2_krea2_loraholic.safetensors", "url": "https://civitai.red/api/download/models/3207249?fileId=3089257" } 
 ],
 
     "ComfyUI/models/ultralytics/segm/": [
