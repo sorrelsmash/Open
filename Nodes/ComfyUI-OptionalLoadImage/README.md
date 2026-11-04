@@ -1,19 +1,19 @@
 # ComfyUI Optional Load Image
 
-An image loader with an explicit `(none)` option.
+Image loader with an explicit `(none)` option.
 
 ## Install
 
-Run in your ComfyUI custom_nodes directory:
+The node source is stored in `Nodes/ComfyUI-OptionalLoadImage` on `main`.
+The installation branch contains only the node files at its root.
 
 ```bash
 cd /workspace/ComfyUI/custom_nodes
-git clone https://github.com/sorrelsmash/Open.git ComfyUI-OptionalLoadImage
+git clone --depth 1 --single-branch -b codex/optional-load-image https://github.com/sorrelsmash/Open.git ComfyUI-OptionalLoadImage
 ```
 
-If ComfyUI is installed elsewhere, adjust the first path. Restart ComfyUI and search for **Optional Load Image**.
-
-The repository root loader exposes the node stored in `Nodes/ComfyUI-OptionalLoadImage`. The clone also includes the repository's other files. Additional Python packages are not required; the node uses ComfyUI's torch, numpy and Pillow.
+Adjust the ComfyUI path if needed. Restart ComfyUI and search for **Optional Load Image**.
+If installed manually, copy the entire `Nodes/ComfyUI-OptionalLoadImage` folder into `ComfyUI/custom_nodes`.
 
 ## Usage
 
@@ -21,14 +21,11 @@ The repository root loader exposes the node stored in `Nodes/ComfyUI-OptionalLoa
 - Select `(none)` to return `None` on both ports.
 - Missing files also return `None`.
 
-Downstream nodes must support `None`. Standard nodes expecting image tensors may fail if connected to an empty output. This node does not universally skip dependent workflow branches.
+Downstream nodes must support `None`; ordinary nodes expecting tensors may fail on an empty output. This node does not universally skip dependent workflow branches.
+
+Uses ComfyUI's existing torch, numpy and Pillow dependencies. No additional packages needed.
 
 ## Update
 
-From the cloned repository directory, run:
-
-```bash
-git pull --ff-only
-```
-
-Restart ComfyUI after updating.
+Run `git pull --ff-only` from the installed node folder, then restart ComfyUI.
+The installation branch must be updated separately when the source on main changes.
