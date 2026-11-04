@@ -89,6 +89,10 @@
     {"name": "H3_VBVR_Pro_attn_only.safetensors","url": "https://civitai.red/api/download/models/3306139?fileId=3191174"}
   ],
 
+   "ComfyUI/models/latent_upscale_models": [
+    {"name": "minimax_h3_latent_upscaler_3d_conv_v1_fp16.safetensors","url": "https://huggingface.co/LBH-123-AI/Minimax_h3_latent_Upscaler/resolve/main/minimax_h3_latent_upscaler_3d_conv_v1/minimax_h3_latent_upscaler_3d_conv_v1_fp16.safetensors"}
+  ]
+
     "ComfyUI/models/ultralytics/segm/": [
     { "name": "nsfw-anime-xl-x1280.pt", "url": "https://huggingface.co/01miku/anime-nsfw-segm-yolo26/resolve/main/nsfw-anime-xl-x1280.pt" }
   ]
