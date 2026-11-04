@@ -1,23 +1,34 @@
 # ComfyUI Optional Load Image
 
-A standard-style image loader with an explicit `(none)` option.
-
-- Select an image to output regular `IMAGE` and `MASK` tensors.
-- Select `(none)` to output `None` on both ports, without a loader error.
-- Missing files also return `None`.
-- Independent branches continue to execute.
-
-**Important:** Downstream nodes must support `None` or skip the optional branch. A standard node that expects an actual tensor may fail when receiving `None`. ComfyUI does not provide a universal mechanism for skipping an arbitrary connected node while continuing its dependent outputs.
+An image loader with an explicit `(none)` option.
 
 ## Install
 
+Run in your ComfyUI custom_nodes directory:
+
 ```bash
-cd /path/to/ComfyUI/custom_nodes
-git clone https://github.com/YOUR_USERNAME/ComfyUI-OptionalLoadImage.git
+cd /workspace/ComfyUI/custom_nodes
+git clone https://github.com/sorrelsmash/Open.git ComfyUI-OptionalLoadImage
 ```
 
-Restart ComfyUI. Search for **Optional Load Image**.
+If ComfyUI is installed elsewhere, adjust the first path. Restart ComfyUI and search for **Optional Load Image**.
 
-## Dependencies
+The repository root loader exposes the node stored in `Nodes/ComfyUI-OptionalLoadImage`. The clone also includes the repository's other files. Additional Python packages are not required; the node uses ComfyUI's torch, numpy and Pillow.
 
-Uses ComfyUI's existing `torch`, `numpy`, and `Pillow` dependencies. No additional packages needed.
+## Usage
+
+- Select an image to output IMAGE and MASK tensors.
+- Select `(none)` to return `None` on both ports.
+- Missing files also return `None`.
+
+Downstream nodes must support `None`. Standard nodes expecting image tensors may fail if connected to an empty output. This node does not universally skip dependent workflow branches.
+
+## Update
+
+From the cloned repository directory, run:
+
+```bash
+git pull --ff-only
+```
+
+Restart ComfyUI after updating.
