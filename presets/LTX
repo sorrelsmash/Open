@@ -1,0 +1,47 @@
+{
+   
+  "ComfyUI/models/diffusion_models": [
+    { "name": "10Eros_v1.4_fp8mixed_learned.safetensors", "url": "https://huggingface.co/TenStrip/LTX2.3-10Eros/resolve/main/10Eros_v1.4_fp8mixed_learned.safetensors"}
+  ],
+
+  "ComfyUI/models/loras/LTX": [
+    { "name": "ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors", "url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors" },
+    { "name": "animeflatLTX.2.3.safetensors", "url": "https://civitai.red/api/download/models/2809357?fileId=2695218" },
+    { "name": "LTX2.3_2d_NSFW_motion_enhancer.safetensors", "url": "https://civitai.red/api/download/models/2955513?fileId=2834902" },
+    { "name": "DaSiWa_LTX23_NSFW_Bodyphysics_Fluid_Motion_Enhancer_v01.safetensors", "url": "https://civitai.red/api/download/models/2996907?fileId=2878614" },
+    { "name": "DR34ML4Y_LTXXX_V3.safetensors", "url": "https://civitai.red/api/download/models/3082662?fileId=2961952" },
+    { "name": "LTX2.3_Breasts_Jiggle_Physics.safetensors", "url": "https://civitai.red/api/download/models/2850154?fileId=2736289" },
+    { "name": "LTX2.3-NSFWMOTION_00750.safetensors", "url": "https://civitai.red/api/download/models/2778953?fileId=2665100" },
+    { "name": "riding_fbs_animation_10Eros_i2v_v1.0.safetensors", "url": "https://civitai.red/api/download/models/3057017?fileId=2935666" },
+    { "name": "LTX2.3_Crisp_Enhance.safetensors", "url": "https://civitai.red/api/download/models/2849716?fileId=2735885" },
+    { "name": "LTX2.3_reasoning_Sulphur-2_I2V_V4.safetensors", "url": "https://civitai.red/api/download/models/3025398?fileId=2904187" },
+    { "name": "Sulphur_LTX 2.3_better _NSFW_motion.safetensors", "url": "https://civitai.red/api/download/models/2986751?fileId=2866267" },
+    { "name": "pussyjob_sulphur_v1.1.safetensors", "url": "https://civitai.red/api/download/models/2963758?fileId=2843134" },
+    { "name": "5fingering-ltx-mfng-step00004500.safetensors", "url": "https://civitai.red/api/download/models/2888160?fileId=2767979" },
+    { "name": "bellydance_abg_animation_10Eros_i2v_v1.0.safetensors", "url": "https://civitai.red/api/download/models/3053310?fileId=2931997" },
+    { "name": "ltx-2.3-22b-ic-lora-union-control-ref0.5.safetensors", "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Union-Control/resolve/main/ltx-2.3-22b-ic-lora-union-control-ref0.5.safetensors" },
+    { "name": "bounceV2_LTX23_I2V.comfy.safetensors", "url": "https://civitai.red/api/download/models/2831204?fileId=2717274" },
+    { "name": "ltxdeepthroat_v01.safetensors", "url": "https://civitai.red/api/download/models/2784573?fileId=2670611" },
+    { "name": "LTX2.3-Furry-2D-NSFW-Multi-Purpose-Lora+Cum.safetensors", "url": "https://civitai.red/api/download/models/3071035?fileId=2949895" },
+    { "name": "(ltx)cum_13_000002500.safetensors", "url": "https://civitai.red/api/download/models/2896861?fileId=2774808" },
+    { "name": "LTX2.3_blowjob_animation_I2V_v1.0.safetensors", "url": "https://civitai.red/api/download/models/2849892?fileId=2736052" },
+    { "name": "ltx2.3-transition.safetensors", "url": "https://huggingface.co/joyfox/LTX-2.3-Transition-LORA/resolve/main/ltx2.3-transition.safetensors" }
+  ],
+  
+  "ComfyUI/models/text_encoders": [
+    { "name": "gemma-3-12b-it-heretic-v2_fp8_e4m3fn.safetensors", "url": "https://huggingface.co/lynaNSFW/gemma-3-12b-it-heretic-v2_fp8_e4m3fn/resolve/main/gemma-3-12b-it-heretic-v2_fp8_e4m3fn.safetensors" },
+    { "name": "ltx-2.3_text_projection_bf16.safetensors", "url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/text_encoders/ltx-2.3_text_projection_bf16.safetensors" }
+  ],
+  "ComfyUI/models/vae": [
+    { "name": "LTX23_video_vae_bf16.safetensors", "url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_video_vae_bf16.safetensors" },
+    { "name": "LTX23_audio_vae_bf16.safetensors", "url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_audio_vae_bf16.safetensors" },
+    { "name": "taeltx2_3.safetensors", "url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/taeltx2_3.safetensors" }
+  ],
+    "ComfyUI/models/clip": [
+    { "name": "ltx-2.3_text_projection_bf16.safetensor", "url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/text_encoders/ltx-2.3_text_projection_bf16.safetensors" }
+  ],
+  "ComfyUI/models/latent_upscale_models": [
+    { "name": "ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors", "url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors" },
+    { "name": "ltx-2.3-spatial-upscaler-x2-1.1.safetensors", "url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.1.safetensors" }
+  ]
+}
